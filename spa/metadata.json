@@ -33696,7 +33696,7 @@
   },
   "article_metadata": {},
   "alignment_metadata": {
-    "alignment_source": "https://github.com/Clear-Bible/alignments-spa/tree/main/data/alignments/RV09",
+    "alignment_source": "https://github.com/Clear-Bible/Alignments/tree/main/data/spa/alignments/RV09",
     "alignment_ot_basis": "https://github.com/Clear-Bible/Alignments/tree/main/data/sources/WLCM.tsv",
     "alignment_nt_basis": "https://github.com/Clear-Bible/Alignments/tree/main/data/sources/SBLGNT.tsv",
     "licenses": [
