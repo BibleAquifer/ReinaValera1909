@@ -1,14 +1,16 @@
-# `ReinaValera1909` Aquifer Resource
+# _Reina Valera 1909_ Aquifer Resource
 
-This repository contains Aquifer resource data with resource-level metadata, article-level metadata, and content files in JSON and Markdown formats.
+This repository (`ReinaValera1909`) contains an Aquifer Bible resource with resource-level metadata and content files in USFM and USX formats.
 
 ## License
 
-This repository is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+_Reina Valera 1909_ © 1909 [Public Domain](https://creativecommons.org/public-domain/cc0/)
+
+This resource is licensed under the [Public Domain CC0](https://creativecommons.org/public-domain/cc0/) license.
 
 ## Structure
 
-The repository is organized by language codes, with each language folder containing subfolders for JSON and Markdown content.
+The repository is organized by language codes, with each language folder containing USFM and USX content files.
 
 ## Documentation
 
