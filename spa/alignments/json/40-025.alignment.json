@@ -1,0 +1,74 @@
+{
+  "format": "alignment",
+  "version": "0.4",
+  "groups": [
+    {
+      "type": "translation",
+      "meta": {
+        "creator": "Mission Mutual",
+        "conformsTo": "0.4",
+        "llm": {
+          "provider": "gloo",
+          "model": "gloo-google-gemini-3.5-flash",
+          "reasoning_effort": "high"
+        },
+        "retry_llm": {
+          "provider": "gloo",
+          "model": "gloo-anthropic-claude-opus-4.7",
+          "reasoning_effort": "high"
+        },
+        "nonEquivalent": {
+          "source": [
+            "40025003002|γὰρ",
+            "40025015003|μὲν",
+            "40025029016|ἀπ",
+            "40025033004|μὲν"
+          ],
+          "target": [
+            "40025006016",
+            "40025013013",
+            "40025013014",
+            "40025013015",
+            "40025013016",
+            "40025013017",
+            "40025013018",
+            "40025013019",
+            "40025013020",
+            "40025013021",
+            "40025014002",
+            "40025014003",
+            "40025014004",
+            "40025014005",
+            "40025014006",
+            "40025014007",
+            "40025016001",
+            "40025017009",
+            "40025020031",
+            "40025020032",
+            "40025021001",
+            "40025022006",
+            "40025022007",
+            "40025022027",
+            "40025022028",
+            "40025031015"
+          ]
+        }
+      },
+      "documents": [
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "SBLGNT"
+        },
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "RV09"
+        }
+      ],
+      "roles": [
+        "source",
+        "target"
+      ],
+      "records": []
+    }
+  ]
+}
