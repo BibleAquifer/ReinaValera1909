@@ -1,0 +1,60 @@
+{
+  "format": "alignment",
+  "version": "0.4",
+  "groups": [
+    {
+      "type": "translation",
+      "meta": {
+        "creator": "Mission Mutual",
+        "conformsTo": "0.4",
+        "llm": {
+          "provider": "gloo",
+          "model": "gloo-google-gemini-3.5-flash",
+          "reasoning_effort": "high"
+        },
+        "retry_llm": {
+          "provider": "gloo",
+          "model": "gloo-anthropic-claude-opus-4.7",
+          "reasoning_effort": "high"
+        },
+        "nonEquivalent": {
+          "source": [
+            "48002004004|παρεισάκτους",
+            "48002016002|δὲ",
+            "48002019010|Χριστῷ",
+            "48002019011|συνεσταύρωμαι"
+          ],
+          "target": [
+            "48002004002",
+            "48002009038",
+            "48002010002",
+            "48002010003",
+            "48002017017",
+            "48002020001",
+            "48002020002",
+            "48002020003",
+            "48002020004",
+            "48002020005",
+            "48002021013",
+            "48002007021"
+          ]
+        }
+      },
+      "documents": [
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "SBLGNT"
+        },
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "RV09"
+        }
+      ],
+      "roles": [
+        "source",
+        "target"
+      ],
+      "records": []
+    }
+  ]
+}

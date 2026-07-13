@@ -1,0 +1,72 @@
+{
+  "format": "alignment",
+  "version": "0.4",
+  "groups": [
+    {
+      "type": "translation",
+      "meta": {
+        "creator": "Mission Mutual",
+        "conformsTo": "0.4",
+        "llm": {
+          "provider": "gloo",
+          "model": "gloo-google-gemini-3.5-flash",
+          "reasoning_effort": "high"
+        },
+        "retry_llm": {
+          "provider": "gloo",
+          "model": "gloo-anthropic-claude-opus-4.7",
+          "reasoning_effort": "high"
+        },
+        "nonEquivalent": {
+          "source": [
+            "60004003016|κώμοις",
+            "60004003017|πότοις",
+            "60004006009|μὲν",
+            "60004004010|τῆς",
+            "60004015003|τις"
+          ],
+          "target": [
+            "60004001006",
+            "60004001007",
+            "60004003009",
+            "60004003010",
+            "60004003011",
+            "60004008001",
+            "60004014010",
+            "60004014025",
+            "60004014027",
+            "60004014028",
+            "60004014030",
+            "60004014031",
+            "60004014032",
+            "60004014034",
+            "60004014035",
+            "60004014036",
+            "60004014037",
+            "60004014038",
+            "60004016003",
+            "60004016004",
+            "60004017002",
+            "60004017018",
+            "60004017024"
+          ]
+        }
+      },
+      "documents": [
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "SBLGNT"
+        },
+        {
+          "scheme": "BCVWP|token-string",
+          "docid": "RV09"
+        }
+      ],
+      "roles": [
+        "source",
+        "target"
+      ],
+      "records": []
+    }
+  ]
+}
